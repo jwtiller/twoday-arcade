@@ -25,6 +25,5 @@ jobs:
           DOCKER_ACCESS_TOKEN: ${{ secrets.DOCKER_ACCESS_TOKEN }}
         run: |
           docker buildx create --use
-          docker buildx build --file Dockerfile --tag jonwt/twoday-arcade:latest --push .
-          # The --push flag is added to push the image to the Docker registry.
           echo $DOCKER_ACCESS_TOKEN | docker login -u $DOCKER_USERNAME --password-stdin
+          docker buildx build --file Dockerfile --tag $DOCKER_USERNAME/twoday-arcade:latest --push .
