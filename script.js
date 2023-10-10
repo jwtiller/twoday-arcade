@@ -39,7 +39,7 @@ $(document).ready(function () {
       imageSrc: "images/drone.png",
       title: "Standspill",
       description: "Prøv denne utfordringen som ble vist frem under NDC og Javazone. Her kan du konkurrere med en kollega for å se hvem som raskt kan navigere dronen gjennom labyrinten og nå pakkene først.",
-      url: "http://localhost:8001"
+      url: "https://t.ly/RArwH"
     }
     // Add more items here if needed
   ];
