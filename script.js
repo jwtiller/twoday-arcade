@@ -40,12 +40,6 @@ $(document).ready(function () {
       title: "Standspill",
       description: "Prøv denne utfordringen som ble vist frem under NDC og Javazone. Her kan du konkurrere med en kollega for å se hvem som raskt kan navigere dronen gjennom labyrinten og nå pakkene først.",
       url: "http://localhost:8001"
-    },
-    {
-      imageSrc: "images/tetris.png",
-      title: "Tetris",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a erat id massa condimentum ullamcorper. Morbi nec libero et elit venenatis aliquam vitae at quam. Etiam dictum mattis massa, eget pulvinar massa malesuada volutpat. Vestibulum rhoncus sed sapien ut dictum. Suspendisse imperdiet tristique odio vitae posuere. Proin sodales sem eu porttitor eleifend. Suspendisse placerat leo nisi, id finibus augue feugiat pretium. Fusce sit amet commodo enim. Maecenas ornare bibendum justo ac posuere.",
-      url: "http://localhost:8002"
     }
     // Add more items here if needed
   ];
